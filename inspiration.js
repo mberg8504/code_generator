@@ -1,20 +1,22 @@
-const quotes = [ "Life is about making an impact, not making an income", 
-                "Whatever the mind of man can conceive and believe, it can achieve", 
-                "Strive not to be a success, but rather to be of value",
-                "Your limitation - it's only your imagination",
-                "Push yourself because no noe else is going to do it for you", 
-                "Great things never come from comfort zones",
+const quotes = ["Great things never come from comfort zones",
                 "Dream bigger, do bigger",
                 "Don't stop when you're tired, stop when you're done",
                 "The more you do today, the closer you'll be to your goals",
                 "It's going to be hard, but hard does not mean impossible"]
 
 
-let randomNum = Math.floor(Math.random() * 11);
+let randomNum = Math.floor(Math.random() * 6);
 
-const quoteGen = () => {
-    
+if (randomNum === 1) {
+    console.log("Great things never come from comfort zones");
+}   else if (randomNum === 2) {
+    console.log("Dream bigger, do bigger");
+}   else if (randomNum === 3) {
+    console.log("Don't stop when you're tired, stop when you're done");
+}   else if (randomNum === 4) {
+    console.log("The more you do today, the closer you'll be to your goals");
+}   else if (randomNum === 5) {
+    console.log("It's going to be hard, but hard does not mean impossible");
+}   else {
+    console.log("Please enter a valid number");
 }
-
-
-
